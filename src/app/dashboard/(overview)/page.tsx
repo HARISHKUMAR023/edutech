@@ -1,3 +1,9 @@
+import Scrolcard from "@/app/ui/dashboard/scrol-card";
+
 export default function Page() {
-    return <p>Dashboard Page</p>;
+    return (
+      <div>
+        <Scrolcard/>
+      </div>
+    );
   }
