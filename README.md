@@ -1,5 +1,5 @@
 # Edutech Platform
-
+![alt text](image.png)
 ## Description
 
 This is an Edutech platform designed to provide online learning resources and tools. It aims to make education more accessible and engaging through the use of technology.

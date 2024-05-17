@@ -6,7 +6,8 @@ import fs1 from "../../../../public/fs1.jpeg";
 import fs2 from "../../../../public/fs2.jpeg";
 import fs3 from "../../../../public/fs3.jpeg";
 import fs4 from "../../../../public/fs4.jpeg";
-import mern2 from "../../../../public/mern2.png";
+
+import mern2 from "../../../../public/mern3.png";
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 // import { Carousel } from "react-responsive-carousel";
 import { Carousel } from "flowbite-react";
