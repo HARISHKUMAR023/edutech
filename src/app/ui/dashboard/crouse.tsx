@@ -32,12 +32,16 @@ const Crouse = () => {
           title="Full Stack Web Development: From Zero to Hero" 
           description="Learn front-end technologies like HTML, CSS, JavaScript, and React.\nMaster back-end technologies like Node.js, Express, and MongoDB." 
           image={fullstack}
+
+          crouseurl='/dashboard/fullstack'
+        
         />
 
 <CrouseCard 
   title="Mastering UI Design with Figma" 
   description="Learn to create stunning user interfaces using Figma.\nMaster the tools and techniques used by professional designers." 
   image={figmaCourseImage}
+  crouseurl='/dashboard/figma'
 />
         </div> 
 
