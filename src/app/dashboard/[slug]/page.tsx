@@ -24,7 +24,7 @@ const courses: { [key: string]: Course } = {
     bgimage:figma,
     title: 'Mastering UI Design with Figma',
     description: 'Figma works on any operating system that runs a web browser. Macs, Windows PCs, Linux machines, and even Chromebooks can be used with Figma. It is the only design tool of its type that does this, and in shops that use hardware running different operating systems, everyone can still share, open, and edit Figma files. In many organizations, designers use Macs and developers use Windows PCs. What does Figma do to help bring these groups together? Figma’s universal nature prevents the annoyance of PNG-pong (where updated images are bounced back and forth between design team disciplines). In Figma, there is no need for a mediating mechanism to make design work available to everyone.',
-    crouseurl:'/dashboardcourses/introfs',
+    crouseurl:'/dashboard/courses/introfs',
   },
 };
 
