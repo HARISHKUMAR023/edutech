@@ -1,0 +1,1 @@
+const crousedata = sql`SELECT * FROM courses`;

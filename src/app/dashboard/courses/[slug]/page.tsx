@@ -5,6 +5,7 @@ import { useState } from 'react';
 import YouTube from 'react-youtube';
 import  { ImageProps } from 'next/image';
 import Learnfrom from '@/app/ui/crouses/From';
+import { sql } from '@vercel/postgres';
 type Course = {
     videono:string;
     title: string;
