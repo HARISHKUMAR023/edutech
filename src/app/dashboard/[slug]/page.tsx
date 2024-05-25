@@ -18,7 +18,7 @@ const courses: { [key: string]: Course } = {
     bgimage:mern2,
     title: 'Full Stack Web Development: From Zero to HeroFullstack Development',
     description: 'Full stack development is the process of designing, creating, testing, and deploying a complete web application from start to finish. It involves working with various technologies and tools, including front-end web development, back-end web development, and database development. And full stack development is a term used to describe a software engineer or developer who works with both the front and back end of a website or application. A full-stack developer is comfortable working with front-end and back-end technologies that power a website or application. ',
-    crouseurl:'/dashboard/courses/introfs',
+    crouseurl:'/dashboard/courses/fullsack',
   },
   'figma': {
     bgimage:figma,

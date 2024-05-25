@@ -14,14 +14,14 @@ type Course = {
   };
   
   const courses: { [key: string]: Course } = {
-    'introfs': {
+    'fullsack': {
         videono:'1',
         title: 'Introduction to Fullstack Development',
      
       description: 'Full stack development is the process of designing, creating, testing, and deploying a complete web application from start to finish. It involves working with various technologies and tools, including front-end web development, back-end web development, and database development. And full stack development is a term used to describe a software engineer or developer who works with both the front and back end of a website or application. A full-stack developer is comfortable working with front-end and back-end technologies that power a website or application.',
       videoId: '2SPj4cpx3H4', // Add videoId here
     },
-    'fsnetwork': {
+    'figma': {
         videono:'2',
         title: 'Networking Fundamentals',
         description: 'Full stack development is the process of designing, creating, testing, and deploying a complete web application from start to finish. It involves working with various technologies and tools, including front-end web development, back-end web development, and database development. And full stack development is a term used to describe a software engineer or developer who works with both the front and back end of a website or application. A full-stack developer is comfortable working with front-end and back-end technologies that power a website or application.',
