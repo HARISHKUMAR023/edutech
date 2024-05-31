@@ -37,7 +37,7 @@ export default function SideNav() {
         className="fixed top-0 left-0 z-40 w-64 h-screen transition-transform -translate-x-full sm:translate-x-0  shadow-xl shadow-lime-500"
         aria-label="Sidebar"
       >
-        <div className="h-full px-3 py-4 overflow-y-auto bg-black text-white dark:bg-gray-800">
+        <div className="h-full px-3 py-4 overflow-y-auto bg-[#111927] text-white dark:bg-gray-800">
           <a
             href="https://flowbite.com/"
             className="flex items-center ps-2.5 mb-5"
@@ -49,8 +49,8 @@ export default function SideNav() {
               className="h-6 me-3 sm:h-7"
               alt="Flowbite Logo"
             />
-            <span className="self-center text-xl font-semibold whitespace-nowrap dark:text-white">
-              Kavasam
+            <span className="self-center text-xl font-bold whitespace-nowrap  dark:text-white">
+              KAVASAM 
             </span>
           </a>
           <div className="flex flex-col  justify-between ">

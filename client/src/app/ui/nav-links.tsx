@@ -11,11 +11,11 @@ import clsx from 'clsx';
 // Depending on the size of the application, this would be stored in a database.
 const links = [
   { name: 'Dashboard', href: '/dashboard', icon: HomeIcon },
-  { name: 'Courses', href: '/dashboard/crouses', icon:  CommandLineIcon },
-  { name: 'Assignments', href: '/dashboard/assignments', icon: ClipboardIcon },
-   { name: 'Grades', href: '/dashboard/grades', icon: ChartBarIcon },
-  { name: 'Discussion', href: '/dashboard/discussion', icon: ChatBubbleBottomCenterIcon },
-   { name: 'Resources', href: '/dashboard/resources', icon: FolderIcon },
+  { name: 'Courses', href: '/dashboard/courses', icon:  CommandLineIcon },
+  // { name: 'Assignments', href: '/dashboard/assignments', icon: ClipboardIcon },
+  //  { name: 'Grades', href: '/dashboard/grades', icon: ChartBarIcon },
+  // { name: 'Discussion', href: '/dashboard/discussion', icon: ChatBubbleBottomCenterIcon },
+  //  { name: 'Resources', href: '/dashboard/resources', icon: FolderIcon },
   { name: 'Profile', href: '/dashboard/profile', icon: UserCircleIcon },
 ];
 export default function NavLinks() {
@@ -29,7 +29,7 @@ export default function NavLinks() {
 
      
           <li key={link.name} >
-             <Link href={link.href} className={clsx('flex items-center p-2  rounded-lg text-white dark:text-white hover:bg-lime-500 dark:hover:bg-gray-700 group',{'bg-lime-500/80 text-white': pathname === link.href},)}>
+             <Link href={link.href} className={clsx('flex items-center p-3 my-6  rounded-lg text-white dark:text-white hover:bg-lime-500 dark:hover:bg-gray-700 group',{'transition-transform -translate-x-full sm:translate-x-0  shadow-lg shadow-lime-500 bg-lime-500 text-white': pathname === link.href},)}>
              <LinkIcon className="w-6" />
                 <span className="ms-3">{link.name}</span>
              </Link>
