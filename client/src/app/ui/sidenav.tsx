@@ -34,7 +34,7 @@ export default function SideNav() {
 
       <aside
         id="logo-sidebar"
-        className="fixed top-0 left-0 z-40 w-64 h-screen transition-transform -translate-x-full sm:translate-x-0  shadow-xl shadow-lime-500"
+        className="fixed top-0 left-0 z-40 w-64 h-screen transition-transform -translate-x-full sm:translate-x-0  shadow-xl shadow-lime-500 "
         aria-label="Sidebar"
       >
         <div className="h-full px-3 py-4 overflow-y-auto bg-[#111927] text-white dark:bg-gray-800">
@@ -53,7 +53,7 @@ export default function SideNav() {
               KAVASAM 
             </span>
           </a>
-          <div className="flex flex-col  justify-between ">
+          <div className="flex flex-col justify-between ">
             <div>
               <ul className="space-y-2 font-medium">
                 <NavLinks />
@@ -65,7 +65,8 @@ export default function SideNav() {
                 <li>
                   <Link
                     href=""
-                    className="flex items-center p-2  rounded-lg text-white dark:text-white hover:bg-lime-500 dark:hover:bg-gray-700 group"
+                    className="flex items-center p-2  rounded-lg text-white dark:text-white hover:border-lime-500 hover:border 
+                              dark:hover:border-lime-500 dark:hover:border group"
                   >
                     <BackspaceIcon className="w-6" />
                   

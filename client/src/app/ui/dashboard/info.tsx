@@ -14,12 +14,14 @@ const Info = () => {
   const strokeDashoffset = circumference - progress / 100 * circumference;
 
   return (
-    <div className="flex justify-around bg-[#1a2332] py-7">
-      <div className="card bg-blue-200 shadow-lg rounded p-4 m-2">
+    <div className="flex justify-around rounded-lg bg-[#242c39] py-7">
+      <div className="card border-2 border-blue-200 text-blue-200 rounded-lg p-4 m-2 
+                    hover:bg-blue-200 hover:text-gray-800 hover:shadow-md hover:shadow-blue-200">
         <h2 className="text-xl font-bold mb-2">Total Courses Enrolled</h2>
         <p className="text-lg">{totalCoursesEnrolled}</p>
       </div>
-      <div className="card bg-green-200 shadow-lg rounded p-4 m-2">
+      <div className="card border-2 border-green-200 rounded-lg p-4 m-2 text-green-200
+                    hover:bg-green-200 hover:text-gray-800 hover:shadow-md hover:shadow-green-200 ">
         <h2 className="text-xl font-bold mb-2">Total Certifications Obtained</h2>
         <p className="text-lg">{totalCertificationsObtained}</p>
       </div>
