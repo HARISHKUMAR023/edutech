@@ -30,8 +30,8 @@ export default function NavLinks() {
      
           <li key={link.name} >
              <Link href={link.href} 
-             className={clsx('flex items-center p-3 my-6 rounded-lg text-white dark:text-white hover:border hover:border-lime-500 hover:text-lime-500 dark:hover:bg-gray-700  group',
-                              {'transition-transform -translate-x-full sm:translate-x-0 bg-lime-500 text-gray-800': pathname === link.href},)}>
+             className={clsx('flex items-center p-3 pl-0  my-6 mx-6 text-white dark:text-white hover:border-b hover:border-lime-400 hover:text-lime-400 dark:hover:bg-gray-700  group',
+                              {'transition-transform -translate-x-full sm:translate-x-0  hover:text-lime-400 text-lime-400 border-b-[0.5px] border-lime-400': pathname === link.href},)}>
              <LinkIcon className="w-6" />
                 <span className="ms-3">{link.name}</span>
              </Link>

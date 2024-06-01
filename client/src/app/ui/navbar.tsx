@@ -5,7 +5,8 @@ import { Bars3BottomLeftIcon , BellAlertIcon } from "@heroicons/react/16/solid";
 
 const Navbar = () => {
   return (
-    <div className="text-white p-3 px-8 backdrop-blur-sm bg-secondary flex flex-row justify-between w-full h-16 items-center rounded-lg">
+    <div className="text-white p-3 px-8 backdrop-blur-sm flex flex-row justify-between w-full h-16 items-center rounded-lg 
+                      border-r border-b border-lime-400 bg-gradient-to-r from-gray-800 via-gray-800 via-65% to-lime-400/70">
       <div>
         <p>Dashbord / Home</p>
       </div>
