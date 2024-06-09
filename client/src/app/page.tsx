@@ -45,9 +45,9 @@ export default function Home() {
           <br />
           <input type="text" className="py-2 my-2 rounded w-full" />
           <br />
-          <button className="bg-lime-400 text-white p-2  rounded-md font-semibold px-4 my-4 w-full">
+          <a href="/dashboard" className="bg-lime-400 text-white p-2  rounded-md font-semibold px-4 my-4 w-full">
             Login
-          </button>
+          </a>
         </div>
      
           <ParticlesContainer />
