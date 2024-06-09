@@ -10,14 +10,14 @@ const page = () => {
   return (
     <div className='dashbord-layout text-white'>
       <Info />
-      <div className="flex flex-row gap-4 mt-28 ">
+      {/* <div className="flex flex-row gap-4 mt-28 ">
         <div className="bg-primary dark:bg-dark2  dark:text-white rounded-md shadow-lg w-full">
           <SplineChart />
         </div>
         <div className="bg-primary dark:bg-dark2  dark:text-white rounded-md shadow-lg w-full">
           <PieChart />
         </div>
-      </div>
+      </div> */}
 
 
    
