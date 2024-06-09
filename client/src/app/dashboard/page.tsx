@@ -8,8 +8,7 @@ import SplineChart from '../ui/dashboard/graph/splinechart';
 
 const page = () => {
   return (
-    <div className='dashbord-layout text-white '>
-
+    <div className='dashbord-layout text-white'>
       <Info />
       <div className="flex flex-row gap-4 mt-28 ">
         <div className="bg-primary dark:bg-dark2  dark:text-white rounded-md shadow-lg w-full">

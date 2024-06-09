@@ -9,9 +9,9 @@ export default function Layout({ children }: { children: React.ReactNode }) {
        
         <SideNav />
       </div>
-      <div className='w-full'>
+      <div className='w-full p-2'>
       <Navbar />
-      <div className="flex-grow p-6 md:overflow-y-auto md:p-12 bg-primary">{children}</div>
+      <div className="flex-grow  md:overflow-y-auto py-2 ">{children}</div>
       </div>
    
     </div>
