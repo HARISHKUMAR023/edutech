@@ -12,6 +12,7 @@ import clsx from 'clsx';
 const links = [
   { name: 'Dashboard', href: '/dashboard', icon: HomeIcon },
   { name: 'Courses', href: '/dashboard/courses', icon:  CommandLineIcon },
+  { name: 'Webeditor', href: '/dashboard/webeditor', icon:  CommandLineIcon },
   // { name: 'Assignments', href: '/dashboard/assignments', icon: ClipboardIcon },
   //  { name: 'Grades', href: '/dashboard/grades', icon: ChartBarIcon },
   // { name: 'Discussion', href: '/dashboard/discussion', icon: ChatBubbleBottomCenterIcon },
