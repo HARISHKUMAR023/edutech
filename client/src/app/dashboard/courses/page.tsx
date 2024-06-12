@@ -1,6 +1,6 @@
 import React from 'react'
 // import CodeMirrorEditor from '@/app/components/codeeditor/CodeMirrorEditor'
-const page = () => {
+const Page = () => {
   return (
     <div className='bg-primary'>
       {/* <CodeMirrorEditor/> */}
@@ -8,4 +8,4 @@ const page = () => {
   )
 }
 
-export default page
+export default Page

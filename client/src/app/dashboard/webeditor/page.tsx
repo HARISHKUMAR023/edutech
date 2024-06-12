@@ -1,7 +1,7 @@
 import React from 'react'
 // import CodeMirrorEditor from '../../components/codeeditor/CodeMirrorEditor';
 
-const page = () => {
+const Page = () => {
   return (
     <div>
       <h1>text editor</h1>
@@ -10,4 +10,4 @@ const page = () => {
   )
 }
 
-export default page
+export default Page
