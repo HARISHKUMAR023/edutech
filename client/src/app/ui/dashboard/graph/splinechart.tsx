@@ -71,7 +71,7 @@ const SplineChart = () => {
 
   return (
     <Chart
-      options={options}
+      // options={options}
       series={series}
       type="line"
       height={350}
