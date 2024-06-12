@@ -27,7 +27,7 @@ export const AuthProvider: FC<{ children: ReactNode }> = ({ children }) => {
         const token = localStorage.getItem('token');
         if (token) {
             axios.defaults.headers.common['Authorization'] = `Bearer ${token}`;
-            axios.get('http://localhost:3000/api/auth/me')
+            axios.get('http://localhost:5000/api/auth/me')
                 .then(response => setUser(response.data))
                 .catch(() => {
                     localStorage.removeItem('token');
@@ -38,7 +38,7 @@ export const AuthProvider: FC<{ children: ReactNode }> = ({ children }) => {
 
     const login = async (username: string, password: string) => {
         try {
-            const { data } = await axios.post('http://localhost:3000/api/auth/login', { username, password });
+            const { data } = await axios.post('http://localhost:5000/api/auth/login', { username, password });
             localStorage.setItem('token', data.token);
             axios.defaults.headers.common['Authorization'] = `Bearer ${data.token}`;
             setUser(data.user);
