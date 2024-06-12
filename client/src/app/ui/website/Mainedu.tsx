@@ -4,7 +4,7 @@ import hero from '../../../../public/coding.svg';
 
 
 import Link from 'next/link';
-const   Main = () => {
+const   Mainedu = () => {
   return (
     <div className='container mx-auto  '>
        
@@ -33,4 +33,4 @@ Find Courses
   )
 }
 
-export default Main
+export default Mainedu
