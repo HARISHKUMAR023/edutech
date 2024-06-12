@@ -1,8 +1,10 @@
 import React from 'react'
 import CodeMirrorEditor from '../../components/codeeditor/CodeMirrorEditor';
+
 const page = () => {
   return (
     <div>
+      <h1>text editor</h1>
       {/* <CodeMirrorEditor/> */}
     </div> 
   )

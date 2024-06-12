@@ -2,6 +2,7 @@ import React from 'react';
 import Image from 'next/image';
 import hero from '../../../../public/coding.svg';
 
+
 import Link from 'next/link';
 const   Main = () => {
   return (
