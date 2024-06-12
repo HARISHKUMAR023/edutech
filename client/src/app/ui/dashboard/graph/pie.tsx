@@ -27,7 +27,7 @@ const PieChart = () => {
 
   return (
     <Chart
-      options={options}
+      // options={options}
       series={series}
       type="pie"
       height={350}
