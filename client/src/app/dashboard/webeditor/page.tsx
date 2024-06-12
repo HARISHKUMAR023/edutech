@@ -3,7 +3,7 @@ import CodeMirrorEditor from '../../components/codeeditor/CodeMirrorEditor';
 const page = () => {
   return (
     <div>
-      <CodeMirrorEditor/>
+      {/* <CodeMirrorEditor/> */}
     </div> 
   )
 }

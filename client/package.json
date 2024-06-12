@@ -10,12 +10,6 @@
     "seed": "node -r dotenv/config ./scripts/seed.js"
   },
   "dependencies": {
-    "@codemirror/basic-setup": "^0.20.0",
-    "@codemirror/lang-css": "^6.2.1",
-    "@codemirror/lang-html": "^6.4.9",
-    "@codemirror/lang-javascript": "^6.2.2",
-    "@codemirror/state": "^6.4.1",
-    "@codemirror/theme-one-dark": "^6.1.2",
     "@heroicons/react": "^2.1.3",
     "@tsparticles/engine": "^3.4.0",
     "@tsparticles/react": "^3.0.0",
@@ -23,17 +17,18 @@
     "apexcharts": "^3.49.1",
     "axios": "^1.7.2",
     "clsx": "^2.1.1",
-    "codemirror": "^6.0.1",
     "flowbite-react": "^0.9.0",
     "monaco-editor": "^0.49.0",
     "next": "14.2.3",
     "react": "^18",
     "react-apexcharts": "^1.4.1",
+    "react-codemirror2": "^8.0.0",
     "react-dom": "^18",
     "react-easy-swipe": "^0.0.23",
     "react-responsive-carousel": "^3.2.23",
     "react-split": "^2.0.14",
     "react-youtube": "^10.1.0",
+    "styled-components": "^6.1.11",
     "tsparticles": "^3.4.0"
   },
   "devDependencies": {
