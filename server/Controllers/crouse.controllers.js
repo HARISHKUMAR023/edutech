@@ -1,1 +1,0 @@
-const Crouse = require('../Model/Crouse.model');
