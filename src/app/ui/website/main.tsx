@@ -1,13 +1,14 @@
 import React from 'react';
 import Image from 'next/image';
 import hero from '../../../../public/coding.svg';
-
+import ParticlesContainer from '../Auth/ParticlesContainer';
 
 import Link from 'next/link';
 const   Main = () => {
   return (
     <div className='container mx-auto  '>
        
+  <ParticlesContainer />
 <div className=' flex  items-center justify-center z-50 px-32 mt-32'>
 <div className='basis-1/2'>
 <h1 className='text-6xl leading-normal font-bold text-white capitalize'>Master the Skills <br /> to Drive your <span className='text-lime-500 underline'> Career</span></h1>
@@ -27,7 +28,6 @@ Find Courses
     </div>
 </div>
 
-  
 
     </div>
   )
