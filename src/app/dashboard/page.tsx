@@ -23,12 +23,12 @@ const Page:React.FC = () => {
         }
     }, [user, router]);
 
-    // if (!user) return <p>Loading...</p>;
+    if (!user) return <p>Loading...</p>;
   return (
     <div className='dashbord-layout text-white'>
       <Info />
-      {/* <h1>Welcome to the Dashboard, {user.username}!</h1>
-      <p>Your role: {user.role}</p> */}
+      <h1>Welcome to the Dashboard, {user.username}!</h1>
+      <p>Your role: {user.role}</p>
       {/* <div className="flex flex-row gap-4 mt-28 ">
         <div className="bg-primary dark:bg-dark2  dark:text-white rounded-md shadow-lg w-full">
           <SplineChart />
